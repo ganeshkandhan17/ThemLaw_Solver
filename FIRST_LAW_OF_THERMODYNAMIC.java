@@ -121,9 +121,9 @@ public class FIRST_LAW_OF_THERMODYNAMIC{
         for(i=1;i<=np;i++)
          {
             System.out.printf("the value of Q%d= %d %s\n",i,Q[i],unit); 
-            System.out.printf(" the value of W%d= %d %s\n",i,W[i],unit);
-            System.out.printf(" the value of dE%d= %d %s\n",i,dE[i],unit);
-			System.out.print("-------------------------\n");
+            System.out.printf("the value of W%d= %d %s\n",i,W[i],unit);
+            System.out.printf("the value of dE%d= %d %s\n",i,dE[i],unit);
+	    System.out.print("-------------------------\n");
          }
        }
     public static void Method2(int np,int TQ,int Q[],int W[],int dE[],String unit){
@@ -198,9 +198,9 @@ public class FIRST_LAW_OF_THERMODYNAMIC{
         for(i=1;i<=np;i++)
          {
             System.out.printf("the value of Q%d= %d %s\n",i,Q[i],unit); 
-            System.out.printf(" the value of W%d= %d %s\n",i,W[i],unit);
-            System.out.printf(" the value of dE%d= %d %s\n",i,dE[i],unit);
-			System.out.print("-------------------------\n");
+            System.out.printf("the value of W%d= %d %s\n",i,W[i],unit);
+            System.out.printf("the value of dE%d= %d %s\n",i,dE[i],unit);
+	    System.out.print("-------------------------\n");
          }
     }
 }
