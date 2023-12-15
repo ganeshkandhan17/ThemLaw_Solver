@@ -1,65 +1,32 @@
-# first law of thermodynamic
-To solve the sum related to first law of thermodynamic Q=W+dE<br>
-<h3>SAMPLE SUM ATTACHED AS PHOTO!!!</h3><br>
-<h3>SAMPLE INPUT AND OUTPUT!!!</h3><br>
+# First Law of Thermodynamics Calculator
 
-1. Heat Tranfer is Not Occur 
-2. Heat Tranfer is Occur 
+This Java application is designed to solve problems related to the First Law of Thermodynamics. It provides an interactive interface for users to input problem parameters and calculates unknown values based on user inputs.
 
-1 OR 2 = 2<br>
-Amount of heat transfered= -170<br>
-No of cycle occur= 100<br>
-Number of process= 4<br>
-------------!!!-----------<br>
-Enter value=999 for unknown value<br><br> 
- All the unit must be in Kj/min<br>
-------------!!!-----------<br>
-<br>
----------process 1--------<br>
+<h3>🌍 Key Features:</h3>
+<ul>
+  <li><b>Two Modes of Operation</b>: The program can handle problems where heat transfer does or does not occur.</li>
+  <li><b>User-Friendly Input</b>: For each thermodynamic process, users input the values of heat transfer (Q), work done (W), and change in internal energy (ΔE). If any of these values are unknown, users can enter `999`, and the program will calculate the unknown value.</li>
+ <li><b>Multiple Processes</b>: The program can handle problems involving multiple thermodynamic processes.</li>
+</ul>
 
-Enter the value of Q1(Kj/min)= 0<br><br>
-Enter the value of W1(Kj/min)= 2170<br>
-Enter the value of dE1(Kj/min)= 999<br>
----------process 2--------
+<h3>🛠️ Tech Stack:</h3>
 
-Enter the value of Q2(Kj/min)= 21000<br>
-Enter the value of W2(Kj/min)= 0<br>
-Enter the value of dE2(Kj/min)= 999<br>
----------process 3--------
+<ul>
+  <li>Java</li>
+</ul>
 
-Enter the value of Q3(Kj/min)= -2100<br>
-Enter the value of W3(Kj/min)= 999<br>
-Enter the value of dE3(Kj/min)= -36600<br>
+<h3>🚀 Usage:</h3>
 
----------process 4--------
+Upon running the program, users are presented with two options: `Calculate` or `Exit`. If `Calculate` is chosen, users specify whether heat transfer occurs or not. Depending on the choice, users are then prompted to input the relevant problem parameters. After all calculations are done, users are presented with the option to calculate another problem or exit the program.
 
-Enter the value of Q4(Kj/min)= 999<br>
-Enter the value of W4(Kj/min)= 999<br>
-Enter the value of dE4(Kj/min)= 999<br>
+<h3>📸 Screenshots:</h3>
 
----------ANSWERS---------<br>
+Sample Problem
 
-the value of Q1= 0 Kj/min<br>
-the value of W1= 2170 Kj/min<br>
-the value of dE1= -2170 Kj/min<br>
+![image](https://github.com/ganeshkandhan17/ThemLaw_Solver/assets/87404827/da2641a3-097a-46f2-bd78-846b9c1c5758)
 
-------------!-------------
+![TemsolverJava1](https://github.com/ganeshkandhan17/ThemLaw_Solver/assets/87404827/dd122ff1-1a47-4f42-b1fb-fae8b8b10207)
 
-the value of Q2= 21000 Kj/min<br>
-the value of W2= 0 Kj/min<br>
-the value of dE2= 21000 Kj/min<br>
 
------------!--------------
 
-the value of Q3= -2100 Kj/min<br>
-the value of W3= 34500 Kj/min<br>
-the value of dE3= -36600 Kj/min<br>
-
------------!--------------
-
-the value of Q4= -35900 Kj/min<br>
-the value of W4= -53670 Kj/min<br>
-the value of dE4= 17770 Kj/min<br>
-
------------!--------------
 
