@@ -2,6 +2,11 @@
 public class FIRST_LAW_OF_THERMODYNAMIC{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
+        System.out.print("1. Calculate \n");
+        System.out.print("2. Exit \n");
+        System.out.print("1 OR 2 = ");
+        int n=in.nextInt();
+        while(n==1){
         System.out.printf("1. Heat Tranfer is Not Occur \n");
         System.out.printf("2. Heat Tranfer is Occur \n\n");
         System.out.print("1 OR 2 = ");
@@ -31,6 +36,10 @@ public class FIRST_LAW_OF_THERMODYNAMIC{
             dE[i]=in.nextInt();
         }
         Method1(np,Q,W,dE,unit);
+        System.out.print("1. Calculate \n");
+        System.out.print("2. Exit \n");
+        System.out.print("1 OR 2 = ");
+        n=in.nextInt();
     }
     else if(Type==2)
     {
@@ -61,7 +70,12 @@ public class FIRST_LAW_OF_THERMODYNAMIC{
             dE[i]=in.nextInt();
         }
         Method2(np,TQ,Q,W,dE,unit);
+        System.out.print("1. Calculate /n");
+        System.out.print("2. Exit");
+        System.out.print("1 OR 2 = ");
+        n=in.nextInt();
     }
+}
     }
     public static void  Method1(int np,int Q[],int W[],int dE[], String unit){
         int i,j;
