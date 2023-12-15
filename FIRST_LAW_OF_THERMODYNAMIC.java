@@ -70,8 +70,8 @@ public class FIRST_LAW_OF_THERMODYNAMIC{
             dE[i]=in.nextInt();
         }
         Method2(np,TQ,Q,W,dE,unit);
-        System.out.print("1. Calculate /n");
-        System.out.print("2. Exit");
+        System.out.print("1. Calculate \n");
+        System.out.print("2. Exit \n");
         System.out.print("1 OR 2 = ");
         n=in.nextInt();
     }
